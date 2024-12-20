@@ -12,6 +12,6 @@ jobs:
     - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
-        server: premium34.web-hosting.com
-        username: p1sla@ewarenet.com
+        server: web app
+        username: ec2-user
         password: ${{SECRETS.SERVERPASSWORD}}
