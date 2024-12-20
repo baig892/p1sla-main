@@ -12,6 +12,6 @@ jobs:
     - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
-        server: web app
+        server: ip-172-31-93-161.ec2.internal
         username: ec2-user
         password: ${{SECRETS.SERVERPASSWORD}}
